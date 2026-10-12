@@ -100,6 +100,7 @@ A local file works too: an MP4, MP3 or anything else ffmpeg reads.
 YouTube sometimes blocks downloads with `HTTP Error 403`.
 The skill doesn't try to get around that.
 It stops and asks you to download the video yourself, then continues from the file.
+A [cobalt](https://github.com/imputnet/cobalt) instance such as https://cobalt.meowing.de/ works well for that: open source, no ads.
 
 The transcription script also works on its own:
 

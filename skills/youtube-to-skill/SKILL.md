@@ -31,7 +31,8 @@ If a tool is missing, show the user the setup commands from this skill's README 
    Audio only (`-f bestaudio -x --audio-format m4a`) only for talks or podcasts where nothing on screen matters.
    If yt-dlp fails (e.g. `HTTP Error 403`), do NOT try workarounds (cookies, player clients, PO tokens).
    Stop and ask the user to download the video themselves (MP4 720p; MP3 only for talks) and give the file path.
-   Do not use online converter sites yourself: they are untrusted download sources full of ads and fake download buttons.
+   Suggest a [cobalt](https://github.com/imputnet/cobalt) instance in their browser, such as https://cobalt.meowing.de/ or another cobalt community instance: open source, no ads.
+   Do not drive cobalt or any other download site yourself: instances sit behind bot checks, and ad-filled converter sites are untrusted download sources.
    Any local file works as input.
 4. **Transcribe.** Run the Whisper script with `--lang` set from the metadata.
    Use a long timeout: a few minutes per 20 minutes of audio on a GPU, longer on CPU.
